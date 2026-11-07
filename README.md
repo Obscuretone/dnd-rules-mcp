@@ -171,3 +171,8 @@ Never merge another rules edition or unofficial ruling into this pinned corpus.
 Code: MIT. SRD-derived rules: CC BY 4.0 with attribution and modification notices.
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The model and
 software dependencies have their own licenses. This is an independent project.
+
+The measured development snapshot, raw scenario outcomes and hybrid/full-text
+retrieval comparison are published in [validation/](validation/). The retrieval
+queries were used during development; they are not an independent held-out
+accuracy estimate.

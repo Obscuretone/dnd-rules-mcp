@@ -1,0 +1,373 @@
+{
+  "mode": "hybrid",
+  "queries": 20,
+  "labelled_page_hits_at_8": 20,
+  "corpus_sha256": "4906d82393d121d235d654749733116e7436819702b5b9e39345e961e7a15120",
+  "limitation": "Authored page-labelled retrieval checks, not independent validation or ruling accuracy. First query includes cold model/index cost.",
+  "results": [
+    {
+      "query": "Can I concentrate on two spells at the same time?",
+      "labelled_pages": [
+        179
+      ],
+      "hit_at_8": true,
+      "seconds": 0.6846,
+      "result_ids": [
+        "concentration",
+        "srd-5.2.1-p150-c02",
+        "srd-5.2.1-p119-c04",
+        "srd-5.2.1-p126-c01",
+        "spell-mislead",
+        "srd-5.2.1-p149-c02",
+        "srd-5.2.1-p071-c02",
+        "spell-dominate-monster"
+      ]
+    },
+    {
+      "query": "Can a gagged character cast a spell with verbal components?",
+      "labelled_pages": [
+        105
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0165,
+      "result_ids": [
+        "verbal",
+        "srd-5.2.1-p105-c04",
+        "srd-5.2.1-p105-c03",
+        "srd-5.2.1-p120-c04",
+        "srd-5.2.1-p164-c01",
+        "spell-speak-with-animals",
+        "components",
+        "long-casting"
+      ]
+    },
+    {
+      "query": "Does teleporting provoke an opportunity attack?",
+      "labelled_pages": [
+        15,
+        190
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0109,
+      "result_ids": [
+        "opportunity-attacks",
+        "srd-5.2.1-p015-c04",
+        "srd-5.2.1-p190-c02",
+        "disengage",
+        "srd-5.2.1-p185-c05",
+        "srd-5.2.1-p015-c03",
+        "srd-5.2.1-p181-c03",
+        "srd-5.2.1-p359-c01"
+      ]
+    },
+    {
+      "query": "What happens with multiple advantages and one disadvantage?",
+      "labelled_pages": [
+        7,
+        8
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0121,
+      "result_ids": [
+        "srd-5.2.1-p008-c03",
+        "srd-5.2.1-p008-c02",
+        "srd-5.2.1-p187-c04",
+        "srd-5.2.1-p187-c05",
+        "srd-5.2.1-p015-c01",
+        "srd-5.2.1-p015-c02",
+        "dodge",
+        "entry-proficiency-p8"
+      ]
+    },
+    {
+      "query": "In what order do flat damage reduction resistance and vulnerability apply?",
+      "labelled_pages": [
+        17
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0153,
+      "result_ids": [
+        "srd-5.2.1-p017-c01",
+        "srd-5.2.1-p191-c01",
+        "srd-5.2.1-p211-c01",
+        "srd-5.2.1-p017-c02",
+        "srd-5.2.1-p090-c04",
+        "srd-5.2.1-p260-c02",
+        "entry-order-of-application-p17",
+        "srd-5.2.1-p180-c02"
+      ]
+    },
+    {
+      "query": "How much does a wizard pay to copy a spell into a spellbook?",
+      "labelled_pages": [
+        78
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0168,
+      "result_ids": [
+        "srd-5.2.1-p078-c05",
+        "srd-5.2.1-p244-c03",
+        "srd-5.2.1-p078-c01",
+        "srd-5.2.1-p078-c04",
+        "srd-5.2.1-p079-c01",
+        "srd-5.2.1-p078-c03",
+        "srd-5.2.1-p078-c02",
+        "srd-5.2.1-p082-c02"
+      ]
+    },
+    {
+      "query": "Bag of Holding",
+      "labelled_pages": [
+        212
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0058,
+      "result_ids": [
+        "entry-bag-of-holding-p212",
+        "srd-5.2.1-p212-c01",
+        "srd-5.2.1-p212-c03",
+        "srd-5.2.1-p096-c03",
+        "srd-5.2.1-p212-c02",
+        "srd-5.2.1-p212-c04",
+        "srd-5.2.1-p311-c03",
+        "srd-5.2.1-p026-c04"
+      ]
+    },
+    {
+      "query": "What interrupts a Long Rest?",
+      "labelled_pages": [
+        185
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0072,
+      "result_ids": [
+        "srd-5.2.1-p185-c02",
+        "srd-5.2.1-p187-c04",
+        "srd-5.2.1-p185-c03",
+        "spell-counterspell",
+        "entry-long-rest-p185",
+        "srd-5.2.1-p185-c01",
+        "entry-monster-p185",
+        "entry-object-p185"
+      ]
+    },
+    {
+      "query": "Multiclassing Proficiency Bonus total character level",
+      "labelled_pages": [
+        25
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0124,
+      "result_ids": [
+        "srd-5.2.1-p025-c02",
+        "srd-5.2.1-p023-c02",
+        "srd-5.2.1-p031-c01",
+        "srd-5.2.1-p057-c02",
+        "srd-5.2.1-p064-c03",
+        "srd-5.2.1-p036-c01",
+        "srd-5.2.1-p053-c01",
+        "srd-5.2.1-p077-c01"
+      ]
+    },
+    {
+      "query": "How much movement does standing up from prone cost?",
+      "labelled_pages": [
+        186
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0106,
+      "result_ids": [
+        "prone",
+        "srd-5.2.1-p185-c01",
+        "srd-5.2.1-p183-c02",
+        "srd-5.2.1-p014-c02",
+        "srd-5.2.1-p119-c05",
+        "movement",
+        "srd-5.2.1-p013-c04",
+        "srd-5.2.1-p182-c02"
+      ]
+    },
+    {
+      "query": "Can I cast a second spell using a spell slot on the same turn?",
+      "labelled_pages": [
+        105
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0133,
+      "result_ids": [
+        "spell-slots-per-turn",
+        "long-casting",
+        "srd-5.2.1-p106-c04",
+        "entry-level-3-second-story-work-p64",
+        "srd-5.2.1-p073-c05",
+        "srd-5.2.1-p153-c02",
+        "srd-5.2.1-p066-c02",
+        "srd-5.2.1-p107-c02"
+      ]
+    },
+    {
+      "query": "How far can a Fireball reach?",
+      "labelled_pages": [
+        131
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0088,
+      "result_ids": [
+        "spell-fireball",
+        "spell-delayed-blast-fireball",
+        "srd-5.2.1-p233-c01",
+        "srd-5.2.1-p131-c04",
+        "srd-5.2.1-p225-c05",
+        "srd-5.2.1-p122-c03",
+        "srd-5.2.1-p225-c02",
+        "srd-5.2.1-p132-c04"
+      ]
+    },
+    {
+      "query": "Does a natural 20 on an attack roll always hit?",
+      "labelled_pages": [
+        7
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0121,
+      "result_ids": [
+        "opportunity-attacks",
+        "srd-5.2.1-p007-c04",
+        "srd-5.2.1-p042-c03",
+        "entry-level-1-druidic-p42",
+        "srd-5.2.1-p018-c01",
+        "entry-level-1-primal-order-p42",
+        "srd-5.2.1-p015-c01",
+        "entry-level-2-wild-shape-p42"
+      ]
+    },
+    {
+      "query": "How do I buy ability scores with 27 points?",
+      "labelled_pages": [
+        21
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0093,
+      "result_ids": [
+        "srd-5.2.1-p021-c01",
+        "srd-5.2.1-p024-c03",
+        "srd-5.2.1-p006-c01",
+        "srd-5.2.1-p231-c02",
+        "srd-5.2.1-p020-c04",
+        "srd-5.2.1-p021-c02",
+        "srd-5.2.1-p094-c04",
+        "entry-assign-ability-scores-p21"
+      ]
+    },
+    {
+      "query": "What happens when an unconscious creature is attacked?",
+      "labelled_pages": [
+        191
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0104,
+      "result_ids": [
+        "unconscious",
+        "opportunity-attacks",
+        "srd-5.2.1-p225-c02",
+        "srd-5.2.1-p142-c04",
+        "srd-5.2.1-p030-c04",
+        "srd-5.2.1-p111-c02",
+        "spell-astral-projection",
+        "srd-5.2.1-p196-c02"
+      ]
+    },
+    {
+      "query": "What does a rogue need to use Sneak Attack?",
+      "labelled_pages": [
+        61
+      ],
+      "hit_at_8": true,
+      "seconds": 0.01,
+      "result_ids": [
+        "srd-5.2.1-p062-c01",
+        "srd-5.2.1-p062-c02",
+        "srd-5.2.1-p061-c04",
+        "srd-5.2.1-p063-c01",
+        "srd-5.2.1-p064-c01",
+        "srd-5.2.1-p061-c03",
+        "opportunity-attacks",
+        "entry-level-3-rogue-subclass-p62"
+      ]
+    },
+    {
+      "query": "What can a wolf do in combat?",
+      "labelled_pages": [
+        364
+      ],
+      "hit_at_8": true,
+      "seconds": 0.007,
+      "result_ids": [
+        "srd-5.2.1-p339-c03",
+        "srd-5.2.1-p347-c03",
+        "srd-5.2.1-p364-c02",
+        "srd-5.2.1-p342-c01",
+        "srd-5.2.1-p342-c03",
+        "srd-5.2.1-p339-c02",
+        "srd-5.2.1-p364-c03",
+        "srd-5.2.1-p364-c01"
+      ]
+    },
+    {
+      "query": "How do I attune to a magic item?",
+      "labelled_pages": [
+        102,
+        177
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0099,
+      "result_ids": [
+        "srd-5.2.1-p102-c02",
+        "srd-5.2.1-p102-c04",
+        "srd-5.2.1-p205-c02",
+        "srd-5.2.1-p216-c02",
+        "srd-5.2.1-p205-c03",
+        "srd-5.2.1-p234-c01",
+        "srd-5.2.1-p216-c03",
+        "srd-5.2.1-p206-c03"
+      ]
+    },
+    {
+      "query": "How does drowning and suffocation work?",
+      "labelled_pages": [
+        189
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0077,
+      "result_ids": [
+        "srd-5.2.1-p189-c03",
+        "srd-5.2.1-p287-c03",
+        "srd-5.2.1-p219-c02",
+        "srd-5.2.1-p182-c04",
+        "srd-5.2.1-p337-c02",
+        "srd-5.2.1-p287-c02",
+        "entry-suffocation-hazard-p189",
+        "srd-5.2.1-p134-c04"
+      ]
+    },
+    {
+      "query": "How much can a character carry?",
+      "labelled_pages": [
+        178,
+        177
+      ],
+      "hit_at_8": true,
+      "seconds": 0.0069,
+      "result_ids": [
+        "srd-5.2.1-p178-c03",
+        "srd-5.2.1-p100-c03",
+        "srd-5.2.1-p012-c02",
+        "srd-5.2.1-p019-c01",
+        "srd-5.2.1-p012-c01",
+        "srd-5.2.1-p196-c03",
+        "srd-5.2.1-p094-c02",
+        "srd-5.2.1-p086-c02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "corpus": {
+    "version": "5.2.1",
+    "language": "en",
+    "pages": 364,
+    "spells": 339,
+    "sections": 519,
+    "named_entries": 1700,
+    "curated_rules": 27,
+    "passages": 1495,
+    "source_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+    "corpus_sha256": "4906d82393d121d235d654749733116e7436819702b5b9e39345e961e7a15120",
+    "source_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "attribution": "This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+    "text_normalization": "Poppler reading order, explicit spell columns; NFKC, whitespace and line-end hyphenation normalized; raw extraction retained"
+  },
+  "scenarios": 89,
+  "passed": 89,
+  "official_worked_examples": 4,
+  "scope": "Authored deterministic regression scenarios; not an independent or comprehensive SRD reasoning accuracy estimate.",
+  "results": [
+    {
+      "id": "action-available",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "action-spent",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "action-stunned",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "action-unknown-state",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "bonus_action-available",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "bonus_action-spent",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "bonus_action-stunned",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "bonus_action-unknown-state",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "bonus_action-no-permission",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "reaction-available",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "reaction-spent",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "reaction-stunned",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "reaction-unknown-state",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "reaction-no-permission",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "reaction-outside-own-turn",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "reaction-trigger-missing",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "split-move-thirty-feet",
+      "passed": true,
+      "origin": "official_worked_example",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "split-move-one-foot-too-far",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "difficult-terrain-five-feet",
+      "passed": true,
+      "origin": "official_worked_example",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "crawl-difficult-terrain",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "cannot-walk-while-prone",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "stand-up-half-speed",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "stand-up-odd-speed-round-down",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "movement-grappled",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "movement-restrained",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "movement-unconscious",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "movement-petrified",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "movement-paralyzed",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "incapacitated-alone-does-not-set-speed-zero",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "occupied-end-space",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "movement-needs-terrain",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "ordinary-opportunity-attack",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "opportunity-reaction_available",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "opportunity-can_see_target",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "opportunity-target_leaves_reach",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "opportunity-target_uses_own_movement",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "opportunity-target_teleports",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "opportunity-target_disengaged",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "opportunity-unknown-disengage",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "fireball-at-range-boundary",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "fireball-slot-too-low",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "fireball-beyond-range",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "fireball-no-slot",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "fireball-second-slot-on-same-turn",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "fireball-silenced",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "fireball-no-somatic",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "fireball-missing-material",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "fireball-not-prepared",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "fireball-missing-verbal-fact",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "fireball-without-slot-needs-feature",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "cantrip-after-slotted-spell",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "shield-on-another-turn",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "shield-second-slot-on-own-turn",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "shield-trigger-not-met",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "new-concentration-replaces-old",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "unknown-spell",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "ritual-casting-needs-interpretation",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "concentration-dc-eleven",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "concentration-failed-save",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "concentration-dc-cap-thirty",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "concentration-zero-damage",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "concentration-save-unknown",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "concentration-stunned",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "cannot-maintain-two-concentration-effects",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "official-damage-order-example",
+      "passed": true,
+      "origin": "official_worked_example",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "damage-immunity",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "damage-cannot-be-negative",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "damage-odd-resistance",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "damage-unknown-immunity",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "natural-twenty-attack",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "natural-twenty-check-can-fail",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "natural-one-attack",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "natural-one-save-can-pass",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "advantage-selects-higher",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "disadvantage-selects-lower",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "advantage-disadvantage-cancel-despite-count",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "advantage-needs-two-rolls",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "official-multiclass-proficiency-example",
+      "passed": true,
+      "origin": "official_worked_example",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "wrong-multiclass-proficiency",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "multiclass-prerequisite-fails",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "single-class-does-not-require-thirteen",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "character-level-cap",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "point-buy-over-budget",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "disallowed",
+      "actual": "disallowed"
+    },
+    {
+      "id": "point-buy-twenty-seven-points",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "no_violation_found",
+      "actual": "no_violation_found"
+    },
+    {
+      "id": "unknown-base-generation",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "unknown-special-rules-is-not-false",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "house-rule-needs-dm",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "requires_dm_ruling",
+      "actual": "requires_dm_ruling"
+    },
+    {
+      "id": "roll-needs-advantage-facts",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    },
+    {
+      "id": "damage-needs-reduction-fact",
+      "passed": true,
+      "origin": "paired_variant",
+      "expected": "needs_information",
+      "actual": "needs_information"
+    }
+  ]
+}
