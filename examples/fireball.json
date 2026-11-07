@@ -1,0 +1,17 @@
+{
+  "special_rules": [],
+  "kind": "spellcasting",
+  "spell": "Fireball",
+  "conditions": [],
+  "on_own_turn": true,
+  "casting_resource_available": true,
+  "spell_access": true,
+  "expends_slot": true,
+  "slot_level": 3,
+  "slot_available": true,
+  "slot_already_expended_this_turn": false,
+  "verbal_possible": true,
+  "somatic_possible": true,
+  "material_available": true,
+  "distance_ft": 150
+}

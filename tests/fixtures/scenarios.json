@@ -1,0 +1,2080 @@
+[
+  {
+    "id": "action-available",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "action",
+      "conditions": [],
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "action-spent",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "action",
+      "conditions": [],
+      "available": false,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "action-stunned",
+    "origin": "paired_variant",
+    "source_page": 189,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "action",
+      "conditions": [
+        "stunned"
+      ],
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "action-unknown-state",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "action",
+      "conditions": null,
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "bonus_action-available",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "bonus_action",
+      "conditions": [],
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "bonus_action-spent",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "bonus_action",
+      "conditions": [],
+      "available": false,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "bonus_action-stunned",
+    "origin": "paired_variant",
+    "source_page": 189,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "bonus_action",
+      "conditions": [
+        "stunned"
+      ],
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "bonus_action-unknown-state",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "bonus_action",
+      "conditions": null,
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "bonus_action-no-permission",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "bonus_action",
+      "conditions": [],
+      "available": true,
+      "on_own_turn": true,
+      "permission": false,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "reaction-available",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "reaction",
+      "conditions": [],
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "reaction-spent",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "reaction",
+      "conditions": [],
+      "available": false,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "reaction-stunned",
+    "origin": "paired_variant",
+    "source_page": 189,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "reaction",
+      "conditions": [
+        "stunned"
+      ],
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "reaction-unknown-state",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "reaction",
+      "conditions": null,
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "reaction-no-permission",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "reaction",
+      "conditions": [],
+      "available": true,
+      "on_own_turn": true,
+      "permission": false,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "reaction-outside-own-turn",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "reaction",
+      "conditions": [],
+      "available": true,
+      "on_own_turn": false,
+      "permission": true,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "reaction-trigger-missing",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [],
+      "kind": "action_economy",
+      "resource": "reaction",
+      "conditions": [],
+      "available": true,
+      "on_own_turn": true,
+      "permission": true,
+      "trigger_satisfied": false
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "split-move-thirty-feet",
+    "origin": "official_worked_example",
+    "source_page": 14,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "movement_cost_ft": 20,
+        "remaining_movement_ft": 0
+      }
+    }
+  },
+  {
+    "id": "split-move-one-foot-too-far",
+    "origin": "paired_variant",
+    "source_page": 14,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 21,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "difficult-terrain-five-feet",
+    "origin": "official_worked_example",
+    "source_page": 181,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 0,
+      "extra_movement_ft": 0,
+      "distance_ft": 5,
+      "difficult_terrain": true,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "movement_cost_ft": 10
+      }
+    }
+  },
+  {
+    "id": "crawl-difficult-terrain",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "prone"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 5,
+      "difficult_terrain": true,
+      "destination_clear": true,
+      "movement_mode": "crawl"
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "movement_cost_ft": 15
+      }
+    }
+  },
+  {
+    "id": "cannot-walk-while-prone",
+    "origin": "paired_variant",
+    "source_page": 186,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "prone"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "stand-up-half-speed",
+    "origin": "paired_variant",
+    "source_page": 186,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "prone"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 0,
+      "difficult_terrain": false,
+      "destination_clear": true,
+      "movement_mode": "stand_up"
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "movement_cost_ft": 15
+      }
+    }
+  },
+  {
+    "id": "stand-up-odd-speed-round-down",
+    "origin": "paired_variant",
+    "source_page": 186,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "prone"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 25,
+      "movement_spent_ft": 0,
+      "extra_movement_ft": 0,
+      "distance_ft": 0,
+      "difficult_terrain": false,
+      "destination_clear": true,
+      "movement_mode": "stand_up"
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "movement_cost_ft": 12
+      }
+    }
+  },
+  {
+    "id": "movement-grappled",
+    "origin": "paired_variant",
+    "source_page": 182,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "grappled"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "movement-restrained",
+    "origin": "paired_variant",
+    "source_page": 182,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "restrained"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "movement-unconscious",
+    "origin": "paired_variant",
+    "source_page": 182,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "unconscious"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "movement-petrified",
+    "origin": "paired_variant",
+    "source_page": 182,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "petrified"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "movement-paralyzed",
+    "origin": "paired_variant",
+    "source_page": 182,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "paralyzed"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "incapacitated-alone-does-not-set-speed-zero",
+    "origin": "paired_variant",
+    "source_page": 183,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [
+        "incapacitated"
+      ],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "occupied-end-space",
+    "origin": "paired_variant",
+    "source_page": 14,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": false
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "movement-needs-terrain",
+    "origin": "paired_variant",
+    "source_page": 14,
+    "facts": {
+      "special_rules": [],
+      "kind": "movement",
+      "conditions": [],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": null,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "ordinary-opportunity-attack",
+    "origin": "paired_variant",
+    "source_page": 185,
+    "facts": {
+      "special_rules": [],
+      "kind": "opportunity_attack",
+      "conditions": [],
+      "reaction_available": true,
+      "can_see_target": true,
+      "target_leaves_reach": true,
+      "target_uses_own_movement": true,
+      "target_teleports": false,
+      "target_disengaged": false
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "opportunity-reaction_available",
+    "origin": "paired_variant",
+    "source_page": 15,
+    "facts": {
+      "special_rules": [],
+      "kind": "opportunity_attack",
+      "conditions": [],
+      "reaction_available": false,
+      "can_see_target": true,
+      "target_leaves_reach": true,
+      "target_uses_own_movement": true,
+      "target_teleports": false,
+      "target_disengaged": false
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "opportunity-can_see_target",
+    "origin": "paired_variant",
+    "source_page": 15,
+    "facts": {
+      "special_rules": [],
+      "kind": "opportunity_attack",
+      "conditions": [],
+      "reaction_available": true,
+      "can_see_target": false,
+      "target_leaves_reach": true,
+      "target_uses_own_movement": true,
+      "target_teleports": false,
+      "target_disengaged": false
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "opportunity-target_leaves_reach",
+    "origin": "paired_variant",
+    "source_page": 15,
+    "facts": {
+      "special_rules": [],
+      "kind": "opportunity_attack",
+      "conditions": [],
+      "reaction_available": true,
+      "can_see_target": true,
+      "target_leaves_reach": false,
+      "target_uses_own_movement": true,
+      "target_teleports": false,
+      "target_disengaged": false
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "opportunity-target_uses_own_movement",
+    "origin": "paired_variant",
+    "source_page": 15,
+    "facts": {
+      "special_rules": [],
+      "kind": "opportunity_attack",
+      "conditions": [],
+      "reaction_available": true,
+      "can_see_target": true,
+      "target_leaves_reach": true,
+      "target_uses_own_movement": false,
+      "target_teleports": false,
+      "target_disengaged": false
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "opportunity-target_teleports",
+    "origin": "paired_variant",
+    "source_page": 15,
+    "facts": {
+      "special_rules": [],
+      "kind": "opportunity_attack",
+      "conditions": [],
+      "reaction_available": true,
+      "can_see_target": true,
+      "target_leaves_reach": true,
+      "target_uses_own_movement": true,
+      "target_teleports": true,
+      "target_disengaged": false
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "opportunity-target_disengaged",
+    "origin": "paired_variant",
+    "source_page": 15,
+    "facts": {
+      "special_rules": [],
+      "kind": "opportunity_attack",
+      "conditions": [],
+      "reaction_available": true,
+      "can_see_target": true,
+      "target_leaves_reach": true,
+      "target_uses_own_movement": true,
+      "target_teleports": false,
+      "target_disengaged": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "opportunity-unknown-disengage",
+    "origin": "paired_variant",
+    "source_page": 181,
+    "facts": {
+      "special_rules": [],
+      "kind": "opportunity_attack",
+      "conditions": [],
+      "reaction_available": true,
+      "can_see_target": true,
+      "target_leaves_reach": true,
+      "target_uses_own_movement": true,
+      "target_teleports": false,
+      "target_disengaged": null
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-at-range-boundary",
+    "origin": "paired_variant",
+    "source_page": 131,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-slot-too-low",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 2,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-beyond-range",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 151
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-no-slot",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": false,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-second-slot-on-same-turn",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": true,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-silenced",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": false,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-no-somatic",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": false,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-missing-material",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": false,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-not-prepared",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": false,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-missing-verbal-fact",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": null,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "fireball-without-slot-needs-feature",
+    "origin": "paired_variant",
+    "source_page": 104,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fireball",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": false,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "cantrip-after-slotted-spell",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Fire Bolt",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": false,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": true,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 90
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "shield-on-another-turn",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Shield",
+      "conditions": [],
+      "on_own_turn": false,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 1,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "shield-second-slot-on-own-turn",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Shield",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 1,
+      "slot_available": true,
+      "slot_already_expended_this_turn": true,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150,
+      "trigger_satisfied": true
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "shield-trigger-not-met",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Shield",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 1,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150,
+      "trigger_satisfied": false
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "new-concentration-replaces-old",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Bless",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 1,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 30,
+      "already_concentrating": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "previous_concentration_ends": true
+      }
+    }
+  },
+  {
+    "id": "unknown-spell",
+    "origin": "paired_variant",
+    "source_page": 104,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "An invented spell",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 3,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 150
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "ritual-casting-needs-interpretation",
+    "origin": "paired_variant",
+    "source_page": 105,
+    "facts": {
+      "special_rules": [],
+      "kind": "spellcasting",
+      "spell": "Alarm",
+      "conditions": [],
+      "on_own_turn": true,
+      "casting_resource_available": true,
+      "spell_access": true,
+      "expends_slot": true,
+      "slot_level": 1,
+      "slot_available": true,
+      "slot_already_expended_this_turn": false,
+      "verbal_possible": true,
+      "somatic_possible": true,
+      "material_available": true,
+      "distance_ft": 10
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "concentration-dc-eleven",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "concentration",
+      "conditions": [],
+      "starting_another_concentration_effect": false,
+      "damage_taken": 22,
+      "save_total": 11
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "save_dc": 11,
+        "concentration_ends": false
+      }
+    }
+  },
+  {
+    "id": "concentration-failed-save",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "concentration",
+      "conditions": [],
+      "starting_another_concentration_effect": false,
+      "damage_taken": 22,
+      "save_total": 10
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {
+        "concentration_ends": true
+      }
+    }
+  },
+  {
+    "id": "concentration-dc-cap-thirty",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "concentration",
+      "conditions": [],
+      "starting_another_concentration_effect": false,
+      "damage_taken": 100,
+      "save_total": 30
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "save_dc": 30,
+        "concentration_ends": false
+      }
+    }
+  },
+  {
+    "id": "concentration-zero-damage",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "concentration",
+      "conditions": [],
+      "starting_another_concentration_effect": false,
+      "damage_taken": 0,
+      "save_total": null
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "save_required": false
+      }
+    }
+  },
+  {
+    "id": "concentration-save-unknown",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "concentration",
+      "conditions": [],
+      "starting_another_concentration_effect": false,
+      "damage_taken": 22,
+      "save_total": null
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "concentration-stunned",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "concentration",
+      "conditions": [
+        "stunned"
+      ],
+      "starting_another_concentration_effect": false,
+      "damage_taken": 22,
+      "save_total": 11
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "cannot-maintain-two-concentration-effects",
+    "origin": "paired_variant",
+    "source_page": 179,
+    "facts": {
+      "special_rules": [],
+      "kind": "concentration",
+      "conditions": [],
+      "starting_another_concentration_effect": true,
+      "damage_taken": 22,
+      "save_total": 11
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "official-damage-order-example",
+    "origin": "official_worked_example",
+    "source_page": 17,
+    "facts": {
+      "special_rules": [],
+      "kind": "damage",
+      "amount": 28,
+      "flat_reduction": 5,
+      "resistance": true,
+      "vulnerability": true,
+      "immunity": false
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "damage": 22
+      }
+    }
+  },
+  {
+    "id": "damage-immunity",
+    "origin": "paired_variant",
+    "source_page": 17,
+    "facts": {
+      "special_rules": [],
+      "kind": "damage",
+      "amount": 28,
+      "flat_reduction": 5,
+      "resistance": true,
+      "vulnerability": true,
+      "immunity": true
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "damage": 0
+      }
+    }
+  },
+  {
+    "id": "damage-cannot-be-negative",
+    "origin": "paired_variant",
+    "source_page": 17,
+    "facts": {
+      "special_rules": [],
+      "kind": "damage",
+      "amount": 28,
+      "flat_reduction": 40,
+      "resistance": true,
+      "vulnerability": true,
+      "immunity": false
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "damage": 0
+      }
+    }
+  },
+  {
+    "id": "damage-odd-resistance",
+    "origin": "paired_variant",
+    "source_page": 17,
+    "facts": {
+      "special_rules": [],
+      "kind": "damage",
+      "amount": 5,
+      "flat_reduction": 0,
+      "resistance": true,
+      "vulnerability": false,
+      "immunity": false
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "damage": 2
+      }
+    }
+  },
+  {
+    "id": "damage-unknown-immunity",
+    "origin": "paired_variant",
+    "source_page": 17,
+    "facts": {
+      "special_rules": [],
+      "kind": "damage",
+      "amount": 28,
+      "flat_reduction": 5,
+      "resistance": true,
+      "vulnerability": true,
+      "immunity": null
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "natural-twenty-attack",
+    "origin": "paired_variant",
+    "source_page": 7,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "attack_roll",
+      "rolls": [
+        20
+      ],
+      "modifier": -5,
+      "target": 30,
+      "advantage_sources": 0,
+      "disadvantage_sources": 0
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "success": true,
+        "critical_hit": true
+      }
+    }
+  },
+  {
+    "id": "natural-twenty-check-can-fail",
+    "origin": "paired_variant",
+    "source_page": 6,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "ability_check",
+      "rolls": [
+        20
+      ],
+      "modifier": -5,
+      "target": 30,
+      "advantage_sources": 0,
+      "disadvantage_sources": 0
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "success": false,
+        "critical_hit": false
+      }
+    }
+  },
+  {
+    "id": "natural-one-attack",
+    "origin": "paired_variant",
+    "source_page": 7,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "attack_roll",
+      "rolls": [
+        1
+      ],
+      "modifier": 20,
+      "target": 10,
+      "advantage_sources": 0,
+      "disadvantage_sources": 0
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "success": false
+      }
+    }
+  },
+  {
+    "id": "natural-one-save-can-pass",
+    "origin": "paired_variant",
+    "source_page": 7,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "saving_throw",
+      "rolls": [
+        1
+      ],
+      "modifier": 20,
+      "target": 10,
+      "advantage_sources": 0,
+      "disadvantage_sources": 0
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "success": true
+      }
+    }
+  },
+  {
+    "id": "advantage-selects-higher",
+    "origin": "paired_variant",
+    "source_page": 8,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "attack_roll",
+      "rolls": [
+        3,
+        18
+      ],
+      "modifier": 2,
+      "target": 15,
+      "advantage_sources": 2,
+      "disadvantage_sources": 0
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "d20": 18,
+        "success": true
+      }
+    }
+  },
+  {
+    "id": "disadvantage-selects-lower",
+    "origin": "paired_variant",
+    "source_page": 8,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "attack_roll",
+      "rolls": [
+        3,
+        18
+      ],
+      "modifier": 2,
+      "target": 15,
+      "advantage_sources": 0,
+      "disadvantage_sources": 2
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "d20": 3,
+        "success": false
+      }
+    }
+  },
+  {
+    "id": "advantage-disadvantage-cancel-despite-count",
+    "origin": "paired_variant",
+    "source_page": 8,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "attack_roll",
+      "rolls": [
+        10
+      ],
+      "modifier": 2,
+      "target": 12,
+      "advantage_sources": 3,
+      "disadvantage_sources": 1
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "d20": 10,
+        "success": true
+      }
+    }
+  },
+  {
+    "id": "advantage-needs-two-rolls",
+    "origin": "paired_variant",
+    "source_page": 8,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "attack_roll",
+      "rolls": [
+        20
+      ],
+      "modifier": -5,
+      "target": 30,
+      "advantage_sources": 1,
+      "disadvantage_sources": 0
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "official-multiclass-proficiency-example",
+    "origin": "official_worked_example",
+    "source_page": 25,
+    "facts": {
+      "special_rules": [],
+      "kind": "character",
+      "classes": {
+        "Fighter": 3,
+        "Rogue": 2
+      },
+      "ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiency_bonus": 3,
+      "ability_method": "standard_array",
+      "base_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      }
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "total_level": 5,
+        "expected_proficiency_bonus": 3
+      }
+    }
+  },
+  {
+    "id": "wrong-multiclass-proficiency",
+    "origin": "paired_variant",
+    "source_page": 25,
+    "facts": {
+      "special_rules": [],
+      "kind": "character",
+      "classes": {
+        "Fighter": 3,
+        "Rogue": 2
+      },
+      "ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiency_bonus": 2,
+      "ability_method": "standard_array",
+      "base_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      }
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "multiclass-prerequisite-fails",
+    "origin": "paired_variant",
+    "source_page": 24,
+    "facts": {
+      "special_rules": [],
+      "kind": "character",
+      "classes": {
+        "Fighter": 3,
+        "Rogue": 2
+      },
+      "ability_scores": {
+        "strength": 15,
+        "dexterity": 12,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiency_bonus": 3,
+      "ability_method": "standard_array",
+      "base_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      }
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "single-class-does-not-require-thirteen",
+    "origin": "paired_variant",
+    "source_page": 24,
+    "facts": {
+      "special_rules": [],
+      "kind": "character",
+      "classes": {
+        "Fighter": 5
+      },
+      "ability_scores": {
+        "strength": 8,
+        "dexterity": 8,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiency_bonus": 3,
+      "ability_method": "standard_array",
+      "base_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      }
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {}
+    }
+  },
+  {
+    "id": "character-level-cap",
+    "origin": "paired_variant",
+    "source_page": 23,
+    "facts": {
+      "special_rules": [],
+      "kind": "character",
+      "classes": {
+        "Fighter": 20,
+        "Rogue": 1
+      },
+      "ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiency_bonus": 3,
+      "ability_method": "standard_array",
+      "base_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      }
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "point-buy-over-budget",
+    "origin": "paired_variant",
+    "source_page": 21,
+    "facts": {
+      "special_rules": [],
+      "kind": "character",
+      "classes": {
+        "Fighter": 3,
+        "Rogue": 2
+      },
+      "ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiency_bonus": 3,
+      "ability_method": "point_buy",
+      "base_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 15
+      }
+    },
+    "expected": {
+      "verdict": "disallowed",
+      "effects": {}
+    }
+  },
+  {
+    "id": "point-buy-twenty-seven-points",
+    "origin": "paired_variant",
+    "source_page": 21,
+    "facts": {
+      "special_rules": [],
+      "kind": "character",
+      "classes": {
+        "Fighter": 3,
+        "Rogue": 2
+      },
+      "ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiency_bonus": 3,
+      "ability_method": "point_buy",
+      "base_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      }
+    },
+    "expected": {
+      "verdict": "no_violation_found",
+      "effects": {
+        "point_buy_cost": 27
+      }
+    }
+  },
+  {
+    "id": "unknown-base-generation",
+    "origin": "paired_variant",
+    "source_page": 21,
+    "facts": {
+      "special_rules": [],
+      "kind": "character",
+      "classes": {
+        "Fighter": 3,
+        "Rogue": 2
+      },
+      "ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiency_bonus": 3,
+      "ability_method": null,
+      "base_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      }
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "unknown-special-rules-is-not-false",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": null,
+      "kind": "movement",
+      "conditions": [],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "house-rule-needs-dm",
+    "origin": "paired_variant",
+    "source_page": 10,
+    "facts": {
+      "special_rules": [
+        "House rule: movement is doubled"
+      ],
+      "kind": "movement",
+      "conditions": [],
+      "on_own_turn": true,
+      "speed_ft": 30,
+      "movement_spent_ft": 10,
+      "extra_movement_ft": 0,
+      "distance_ft": 20,
+      "difficult_terrain": false,
+      "destination_clear": true
+    },
+    "expected": {
+      "verdict": "requires_dm_ruling",
+      "effects": {}
+    }
+  },
+  {
+    "id": "roll-needs-advantage-facts",
+    "origin": "paired_variant",
+    "source_page": 8,
+    "facts": {
+      "special_rules": [],
+      "kind": "roll",
+      "roll_type": "attack_roll",
+      "rolls": [
+        20
+      ],
+      "modifier": -5,
+      "target": 30,
+      "advantage_sources": null,
+      "disadvantage_sources": 0
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  },
+  {
+    "id": "damage-needs-reduction-fact",
+    "origin": "paired_variant",
+    "source_page": 17,
+    "facts": {
+      "special_rules": [],
+      "kind": "damage",
+      "amount": 28,
+      "flat_reduction": null,
+      "resistance": true,
+      "vulnerability": true,
+      "immunity": false
+    },
+    "expected": {
+      "verdict": "needs_information",
+      "effects": {}
+    }
+  }
+]

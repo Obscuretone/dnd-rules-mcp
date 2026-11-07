@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+*.sqlite3
+*.sqlite3-*
+*.npy
+*.npz
+.cache/
+dist/
+build/
+data/*.pdf
